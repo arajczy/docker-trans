@@ -54,7 +54,7 @@ jobs:
             ghcr.io/${{ env.IMAGE_NAME }}
           labels: |
             org.opencontainers.image.authors=Adam Rajczy
-            org.opencontainers.image.description=Dockerized Translate-Shell application
+            org.opencontainers.image.description=Dockerized translate-shell application
           tags: latest
 
       - name: Build and push image
