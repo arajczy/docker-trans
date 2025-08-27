@@ -7,7 +7,7 @@
 [![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/arajczy/docker-trans/build-and-publish.yml?logo=github)](https://github.com/arajczy/docker-trans/pkgs/container/trans)
 [![GitHub issues](https://img.shields.io/github/issues/arajczy/docker-trans?logo=github)](https://github.com/arajczy/docker-trans/issues/new/choose)
 
-[Translate Shell](https://github.com/soimort/translate-shell) (formerly Google Translate CLI) is a command-line translator powered by Google Translate (default), Bing Translator, Yandex.Translate, and Apertium. It gives you easy access to one of these translation engines in your terminal
+[Translate Shell](https://github.com/soimort/translate-shell) (formerly Google Translate CLI) is a command-line translator powered by [Google Translate](https://translate.google.com/) (default), [Bing Translator](https://www.bing.com/translator), [Yandex.Translate](https://translate.yandex.com/), and [Apertium](https://www.apertium.org/). It gives you easy access to one of these translation engines in your terminal
 
 ## Download Image
 
@@ -18,5 +18,8 @@ podman pull ghcr.io/arajczy/translate-shell:latest
 ## Usage
 
 ```shell
-podman run --name trans --rm ghcr.io/arajczy/translate-shell -b :en "Jó reggelt kívánok!"
+$ podman run -it --name trans --rm ghcr.io/arajczy/translate-shell -brief 'Szervusz világ!'
+Hello, world!
 ```
+
+or use a [shell script](https://raw.githubusercontent.com/arajczy/docker-trans/refs/heads/trunk/bin/trans)

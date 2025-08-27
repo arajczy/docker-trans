@@ -1,3 +1,3 @@
 #! /bin/sh
 
-podman run --rm docker.io/arajczy/translate-shell "$@"
+podman run -it --name trans --replace --rm ghcr.io/arajczy/translate-shell "$@"
