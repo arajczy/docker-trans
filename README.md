@@ -1,4 +1,4 @@
-# [arajczy/trans](https://github.com/arajczy/docker-trans)
+# [arajczy/translate-shell](https://github.com/arajczy/docker-trans)
 
 ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/arajczy/translate-shell/latest?logo=docker)
 ![Docker Pulls](https://img.shields.io/docker/pulls/arajczy/translate-shell?logo=docker)
